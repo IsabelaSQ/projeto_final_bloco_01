@@ -24,14 +24,14 @@ export function main() {
         console.log("            3 - Buscar Produto por ID                ");
         console.log("            4 - Atualizar Dados do Produto           ");
         console.log("            5 - Apagar Produto                       ");
-        console.log("            9 - Sair                                 ");
+        console.log("            0 - Sair                                 ");
         console.log("                                                     ");
         console.log("=====================================================");
 
         console.log("Entre com a opção desejada: ");
         opcao = readlinesync.questionInt("");
 
-        if (opcao === 9) {
+        if (opcao === 0) {
             console.log("\nPet Shop Patas fechando...volte sempre!");
             process.exit(0);
         }
