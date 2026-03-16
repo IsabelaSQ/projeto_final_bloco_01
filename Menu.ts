@@ -6,9 +6,6 @@ export function main(){
 let opcao: number;
 let continuar: boolean = true;
 
-const teste = new Alimento("Premium", 30, "Whiskas", 123, 10, 1, "Gato");
-teste.visualizar();
-
 while (continuar){
     console.log("=== Menu do E-commerce ===");
     console.log("1 - Criar");
