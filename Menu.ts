@@ -1,7 +1,13 @@
 import * as readlineSync from 'readline-sync';
+import { Produto } from './src/model/produtos.js';
+import { Alimento } from './src/model/alimento.js';
+
 export function main(){
 let opcao: number;
 let continuar: boolean = true;
+
+const teste = new Alimento("Premium", 30, "Whiskas", 123, 10, 1, "Gato");
+teste.visualizar();
 
 while (continuar){
     console.log("=== Menu do E-commerce ===");
